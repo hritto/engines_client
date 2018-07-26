@@ -1,0 +1,24 @@
+{
+  "name": "cms",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ory-editor": "^0.2.27",
+    "ory-editor-plugins-image": "^0.2.27",
+    "ory-editor-plugins-slate": "^0.2.27",
+    "ory-editor-ui": "^0.2.27",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-scripts": "1.1.4",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "ajv": "^6.5.2"
+  }
+}
