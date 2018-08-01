@@ -100,10 +100,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="App-header">
-
-        </div>
-
         {/* Content area */}
         <Editable editor={editor} id={content.id} onChange={(editable) => {
           // console.log(editable)
